@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Teams</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+	<link rel="stylesheet" href="resources/EasyAutocomplete/dist/easy-autocomplete.min.css">
+	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+	<script src="resources/EasyAutocomplete/dist/jquery.easy-autocomplete.min.js"></script>
+</head>
+<body>
+	<div id="text">
+	<h1>Teams</h1>
+	<p>Please click one of the following links below:</p>
+	<h3>Roster by Team Name:</h3>
+	<form action="teamRoster.php" method="POST">
+		<input id='tags' type="text" name="input">
+		<input type="submit" value="submit">
+		<input type="reset" value="erase">
+	</form>
+	<br>
+	<a href="teamBudgetDesc.php">View teams by current budget</a><br>
+	<a href="yearFoundedAsc.php">View teams by year founded</a><br>
+	<a href="championshipTeamsDesc.php">View teams by number of NBA Championships won</a><br>
+	<br>
+
+	<script type="text/javascript">
+		var options = {
+			data: [
+			'Atlanta Hawks',
+			'Boston Celtics',
+			'Brooklyn Nets',
+			'Charlotte Hornets',
+			'Chicago Bulls',
+			'Cleveland Cavaliers',
+			'Dallas Mavericks',
+			'Denver Nuggets',
+			'Detroit Pistons',
+			'Golden State Warriors',
+			'Houston Rockets',
+			'Indiana Pacers',
+			'Los Angeles Clippers',
+			'Los Angeles Lakers',
+			'Memphis Grizzlies',
+			'Miami Heat',
+			'Milwaukee Bucks',
+			'Minnesota Timberwolves',
+			'New Orleans Pelicans',
+			'New York Knicks',
+			'Oklahoma City Thunder',
+			'Orlando Magic',
+			'Philadelphia 76ers',
+			'Phoenix Suns',
+			'Portland Trail Blazers',
+			'Sacramento Kings',
+			'San Antonio Spurs',
+			'Toronto Raptors',
+			'Utah Jazz',
+			'Washington Wizards'
+			]
+		};
+
+		$("#tags").easyAutocomplete(options);
+	</script>
+	
+</div>
+	
+</body>
+</html>

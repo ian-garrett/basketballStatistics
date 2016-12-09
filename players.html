@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Players</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+	<link rel="stylesheet" href="resources/EasyAutocomplete/dist/easy-autocomplete.min.css">
+	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+	<script src="resources/EasyAutocomplete/dist/jquery.easy-autocomplete.min.js"></script>
+</head>
+<body>
+
+	<div id="text">
+	<h1>Players</h1>
+	<p>Please click one of the following links below:</p>
+
+	<h3>Players Snapshot</h3>
+	<form action="playerSnapshot.php" method="POST">
+		<input id='tags' type="text" name="input">
+		<input type="submit" value="submit">
+		<input type="reset" value="erase">
+	</form><br>
+	<br>
+
+	<a href="allPlayers.php">View all players</a>
+
+	<h4>Leaderboards</h4>
+	<a href="topPoints.php">View top 10 points per game leaders</a><br>
+	<a href="topRebound.php">View top 10 rebounds per game leaders</a><br>
+	<a href="topAssist.php">View top 10 assists per game leaders</a><br>
+	<a href="topBlock.php">View top 10 blocks per game leaders</a><br>
+	<a href="topSteal.php">View top 10 steals per game leaders</a><br>
+	<br>
+
+	<h4>Feats of Greatness</h4>
+	<a href="doubleDouble.php">View players who average a double-double</a><br>
+	<a href="tripleDouble.php">View players who average a triple-double</a><br>
+	<a href="mvpPlayersDesc.php">View players by the number of Final MVP awards won</a><br>
+	<br>
+
+	<script type="text/javascript">
+		var options = {
+
+		  url: "countries.json",
+
+		  getValue: "name",
+
+		  list: {	
+		    match: {
+		      enabled: true
+		    }
+		  },
+
+		  theme: "square"
+		};
+
+		$("#tags").easyAutocomplete(options);
+	</script>
+
+</div>
+	
+</body>
+</html>
