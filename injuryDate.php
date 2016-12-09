@@ -8,10 +8,9 @@ or die('Error connecting to MySQL server.');
 ?>
 
 <head>
-  <title>Teams: Team Budgets</title>
+  <title>Players: Injuries from May, 2012</title>
  <link rel="stylesheet" type="text/css" href="style.css">
- <link rel="stylesheet" type="text/css" href="style.css">
-   <!-- Latest compiled and minified CSS -->
+  <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
     <!-- Optional theme -->
@@ -30,7 +29,7 @@ or die('Error connecting to MySQL server.');
 <?php
   
 
-$query = "SELECT name, year_founded, budget FROM team WHERE budget IS NOT NULL ORDER BY budget DESC";
+$query = 'SELECT CONCAT(player.first_name," ",player.last_name) AS name, injuries.type AS injuryType, injuries.status AS injuryStat FROM player JOIN injuries ON player.id=injuries.player_id WHERE MONTH(injuries.date)="5" and YEAR(injuries.date)="2012" ORDER BY player.last_name ASC';
 
 ?>
 
@@ -51,16 +50,16 @@ $result = mysqli_query($conn, $query)
 or die(mysqli_error($conn));
 echo "<table width ='100%' border='1'>
         <tr>
-        <th>Team Name</th>
-        <th>Year Founded</th>
-        <th>Budget</th>
+        <th>Player</th>
+        <th>Injury Type</th>
+        <th>Injurt Status</th>
         </tr>";
 
         while($row = mysqli_fetch_array($result, MYSQLI_BOTH)){
             echo "<tr>";
             echo "<td>" . $row['name'] . "</td>";
-            echo "<td>" . $row['year_founded'] . "</td>";
-            echo "<td>$" . number_format($row["budget"]) . "</td>";
+            echo "<td>" . $row['injuryType'] . "</td>";
+            echo "<td>" . $row['injuryStat'] . "</td>";
         }
         echo "</table>";
 
@@ -72,7 +71,7 @@ mysqli_close($conn);
 
 <hr>
 
-  <button class="btn btn-default"><a href="index.html">Home</a></button> 
+  <button class="btn btn-default"><a href="index.html">Home</a></button>  
  
 </body>
 </html>

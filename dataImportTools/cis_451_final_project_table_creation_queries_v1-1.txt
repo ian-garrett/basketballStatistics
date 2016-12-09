@@ -1,0 +1,16 @@
+CREATE TABLE IF NOT EXISTS arena (team_code VARCHAR(5), name VARCHAR(40), capacity INT, PRIMARY KEY (team_code));
+CREATE TABLE IF NOT EXISTS all_time_team_records (team_code VARCHAR(5), points_per_game FLOAT, minutes_per_game FLOAT, rebounds_per_game FLOAT, assists_per_game FLOAT, CONSTRAINT all_time_team_records PRIMARY KEY (team_code));
+CREATE TABLE IF NOT EXISTS amateur (class_year INT(4), player_id VARCHAR(20));
+CREATE TABLE IF NOT EXISTS championship (year INT(4), team_code_winner VARCHAR(5), team_code_loser VARCHAR(5), mvp_first VARCHAR(20), mvp_last VARCHAR(20), winner_games_won TINYINT, loser_games_won TINYINT, PRIMARY KEY (year));
+CREATE TABLE IF NOT EXISTS coach (first_name VARCHAR(20), last_name VARCHAR(20), team_code VARCHAR(5), salary INT(10), PRIMARY KEY (team_code));
+CREATE TABLE IF NOT EXISTS college (name VARCHAR(20) NOT NULL, division VARCHAR(10), PRIMARY KEY (name));
+CREATE TABLE IF NOT EXISTS game (team_code_home VARCHAR(5), team_code_away VARCHAR(5), date DATE, home_score SMALLINT, away_score SMALLINT, CONSTRAINT game PRIMARY KEY (team_code_home, team_code_away, date));
+CREATE TABLE IF NOT EXISTS general_manager (id VARCHAR(20), first_name VARCHAR(20), last_name VARCHAR(20), team_code VARCHAR(20), start_season INT(4), PRIMARY KEY (id));
+CREATE TABLE IF NOT EXISTS injuries (player_id VARCHAR(30), date DATE, type VARCHAR(20), status TEXT, PRIMARY KEY (player_id, date, type));
+CREATE TABLE IF NOT EXISTS owner (team_code VARCHAR(5), owner_first VARCHAR(20), owner_last VARCHAR(20), owned_since YEAR, operating_entity VARCHAR(5), CONSTRAINT owner PRIMARY KEY (team_code, owner_first, owner_last));
+CREATE TABLE IF NOT EXISTS player (id VARCHAR(20), first_name VARCHAR(20), last_name VARCHAR(20), age TINYINT, height_feet TINYINT, height_inches TINYINT, weight SMALLINT, team_code VARCHAR(5), college_name VARCHAR(20), PRIMARY KEY (id));
+CREATE TABLE IF NOT EXISTS player_stats (player_id varchar(20), field_goals_made FLOAT, free_throws_made FLOAT, blocks FLOAT, steals FLOAT, field_goals_attempted FLOAT, games_played FLOAT, minutes FLOAT, points_per_game FLOAT, free_throws_attempted FLOAT, rebounds FLOAT, assists FLOAT, turnovers FLOAT, personal_fouls FLOAT);
+CREATE TABLE IF NOT EXISTS professional (player_id VARCHAR(20), salary INT(9), draft_round INT(4), draft_number INT(4), year_drafted INT(4));
+CREATE TABLE IF NOT EXISTS corporate_sponsor (team_code VARCHAR(5), name VARCHAR(30), sponsorship_amount INT(12), CONSTRAINT corporate_sponsor PRIMARY KEY (team_code, name));
+CREATE TABLE IF NOT EXISTS team (code VARCHAR(5), name VARCHAR(30), budget INT(10), year_founded INT(4), PRIMARY KEY (code));
+CREATE TABLE IF NOT EXISTS transaction (id varchar(20), date DATE, team_code_1 varchar(5), team_code_2 varchar(5), description TEXT);

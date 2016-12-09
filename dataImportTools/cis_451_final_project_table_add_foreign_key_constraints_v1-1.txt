@@ -1,0 +1,16 @@
+ALTER TABLE arena ADD FOREIGN KEY (team_code) REFERENCES team(code);
+ALTER TABLE all_time_team_records ADD FOREIGN KEY (team_code) REFERENCES team(code);
+ALTER TABLE amateur ADD FOREIGN KEY (player_id) REFERENCES player(id);
+ALTER TABLE championship ADD FOREIGN KEY (team_code_winner) REFERENCES team(code);
+ALTER TABLE championship ADD FOREIGN KEY (team_code_loser) REFERENCES team(code);
+ALTER TABLE game ADD FOREIGN KEY (team_code_home) REFERENCES team(code);
+ALTER TABLE game ADD FOREIGN KEY (team_code_away) REFERENCES team(code);
+ALTER TABLE injuries ADD FOREIGN KEY (player_id) REFERENCES player(id);
+ALTER TABLE owner ADD FOREIGN KEY (team_code) REFERENCES team(code);
+ALTER TABLE player ADD FOREIGN KEY (team_code) REFERENCES team(code);
+ALTER TABLE player ADD FOREIGN KEY (college_name) REFERENCES college(name);
+ALTER TABLE player_stats ADD FOREIGN KEY (player_id) REFERENCES player(id);
+ALTER TABLE professional ADD FOREIGN KEY (player_id) REFERENCES player(id);
+ALTER TABLE corporate_sponsor ADD FOREIGN KEY (team_code) references team(code);
+ALTER TABLE transaction ADD FOREIGN KEY (team_code_1) REFERENCES team(code);
+ALTER TABLE transaction ADD FOREIGN KEY (team_code_2) REFERENCES team(code);

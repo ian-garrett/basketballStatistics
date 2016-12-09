@@ -1,0 +1,448 @@
+id,first_name,last_name,team_code,age,height_feet,height_inches,weight,college_name
+1,AJ,Hammons,DAL,24,7,0,260,Purdue
+2,Aaron,Brooks,IND,31,6,0,161,Oregon
+3,Aaron,Gordon,ORL,21,6,9,220,Arizona
+4,Aaron,Harrison,CHA,22,6,6,210,Kentucky
+5,Adreian,Payne,MIN,25,6,10,237,Michigan State
+6,Al,Horford,BOS,30,6,10,245,Florida
+7,Al,Jefferson,IND,31,6,10,289,None
+8,Al-Farouq,Aminu,POR,26,6,9,220,Wake Forest
+9,Alan,Anderson,LAC,34,6,6,220,Michigan State
+10,Alan,Williams,PHX,23,6,8,260,California-Santa Barbara
+11,Alex,Abrines,OKC,23,6,6,190,None
+12,Alex,Len,PHX,23,7,1,260,Maryland
+13,Alexis,Ajinca,NOP,28,7,2,248,None
+14,Allen,Crabbe,POR,24,6,6,215,California
+15,Alonzo,Gee,DEN,29,6,6,225,Alabama
+16,Amir,Johnson,BOS,29,6,9,240,None
+17,Anderson,Varejao,GSW,34,6,11,273,None
+18,Andre,Drummond,DET,23,6,11,279,Connecticut
+19,Andre,Iguodala,GSW,32,6,6,215,Arizona
+20,Andre,Roberson,OKC,25,6,7,210,Colorado
+21,Andrew,Bogut,DAL,32,7,0,260,Utah
+22,Andrew,Harrison,MEM,22,6,6,213,Kentucky
+23,Andrew,Nicholson,WSH,26,6,9,250,St. Bonaventure
+24,Andrew,Wiggins,MIN,21,6,8,199,Kansas
+25,Anthony,Bennett,BKN,23,6,8,235,Nevada-Las Vegas
+26,Anthony,Brown,NOP,24,6,7,210,Stanford
+27,Anthony,Davis,NOP,23,6,11,253,Kentucky
+28,Anthony,Morrow,OKC,31,6,5,210,Georgia Tech
+29,Anthony,Tolliver,SAC,31,6,8,240,Creighton
+30,Archie,Goodwin,NOP,22,6,5,205,Kentucky
+31,Arinze,Onuaku,ORL,29,6,9,255,Syracuse
+32,Aron,Baynes,DET,29,6,10,260,Washington State
+33,Arron,Afflalo,SAC,31,6,5,210,UCLA
+34,Austin,Rivers,LAC,24,6,4,200,Duke
+35,Avery,Bradley,BOS,26,6,2,180,Texas
+36,Ben,McLemore,SAC,23,6,5,195,Kansas
+37,Beno,Udrih,DET,34,6,3,205,None
+38,Bismack,Biyombo,ORL,24,6,9,255,None
+39,Blake,Griffin,LAC,27,6,10,251,Oklahoma
+40,Boban,Marjanovic,DET,28,7,3,290,None
+41,Bobby,Brown,HOU,32,6,2,175,Cal State-Fullerton
+42,Bobby,Portis,CHI,21,6,11,246,Arkansas
+43,Bojan,Bogdanovic,BKN,27,6,8,225,None
+44,Boris,Diaw,UTA,34,6,8,250,None
+45,Bradley,Beal,WSH,23,6,5,207,Florida
+46,Brandon,Bass,LAC,31,6,8,250,Louisiana State
+47,Brandon,Ingram,LAL,19,6,9,190,Duke
+48,Brandon,Jennings,NYK,27,6,1,170,None
+49,Brandon,Knight,PHX,25,6,3,195,Kentucky
+50,Brandon,Rush,MIN,31,6,6,225,Kansas
+51,Brian,Roberts,CHA,31,6,1,173,Dayton
+52,Brook,Lopez,BKN,28,7,0,268,Stanford
+53,Bruno,Caboclo,TOR,21,6,9,205,None
+54,Bryn,Forbes,SAS,23,6,3,190,Michigan
+55,Buddy,Hield,NOP,22,6,4,214,Oklahoma
+56,CJ,McCollum,POR,25,6,3,190,Lehigh
+57,CJ,Miles,IND,29,6,6,225,None
+58,CJ,Watson,ORL,32,6,2,175,Tennessee
+59,CJ,Wilcox,ORL,25,6,5,195,Washington
+60,Carmelo,Anthony,NYK,32,6,8,240,Syracuse
+61,Chandler,Parsons,MEM,28,6,10,230,Florida
+62,Channing,Frye,CLE,33,6,11,255,Arizona
+63,Cheick,Diallo,NOP,20,6,9,220,Kansas
+64,Chris,Andersen,CLE,38,6,10,245,Blinn
+65,Chris,McCullough,BKN,21,6,9,215,Syracuse
+66,Chris,Paul,LAC,31,6,0,175,Wake Forest
+67,Christian,Wood,CHA,21,6,11,220,Nevada-Las Vegas
+68,Clint,Capela,HOU,22,6,10,240,None
+69,Cody,Zeller,CHA,24,7,0,240,Indiana
+70,Cole,Aldrich,MIN,28,6,11,250,Kansas
+71,Corey,Brewer,HOU,30,6,9,186,Florida
+72,Cory,Joseph,TOR,25,6,3,190,Texas
+73,Courtney,Lee,NYK,31,6,5,200,Western Kentucky
+74,Cristiano,Felicio,CHI,24,6,9,266,None
+75,D'Angelo,Russell,LAL,20,6,5,195,Ohio State
+76,D.J.,Augustin,ORL,29,6,0,183,Texas
+77,Damian,Lillard,POR,26,6,3,195,Weber State
+78,Damjan,Rudez,ORL,30,6,10,228,None
+79,Daniel,Ochefu,WSH,22,6,11,245,Villanova
+80,Danilo,Gallinari,DEN,28,6,10,225,None
+81,Danny,Green,SAS,29,6,6,215,North Carolina
+82,Dante,Cunningham,NOP,29,6,8,230,Villanova
+83,Dante,Exum,UTA,21,6,6,190,None
+84,Danuel,House,WSH,23,6,7,215,Texas A&M
+85,Dario,Saric,PHI,22,6,10,223,None
+86,Darrell,Arthur,DEN,28,6,9,235,Kansas
+87,Darren,Collison,SAC,29,6,0,175,UCLA
+88,Darrun,Hilliard,DET,23,6,6,205,Villanova
+89,David,Lee,SAS,33,6,9,245,Florida
+90,David,West,GSW,36,6,9,250,Xavier
+91,Davis,Bertans,SAS,24,6,10,210,None
+92,DeAndre,Jordan,LAC,28,6,11,265,Texas A&M
+93,DeAndre,Liggins,CLE,28,6,6,209,Kentucky
+94,DeAndre',Bembry,ATL,22,6,6,210,Saint Joseph's
+95,DeMar,DeRozan,TOR,27,6,7,220,Southern California
+96,DeMarcus,Cousins,SAC,26,6,11,270,Kentucky
+97,DeMarre,Carroll,TOR,30,6,8,212,Missouri
+98,Dejounte,Murray,SAS,20,6,5,170,Washington
+99,Demetrius,Jackson,BOS,22,6,1,201,Notre Dame
+100,Dennis,Schroder,ATL,23,6,1,172,None
+101,Denzel,Valentine,CHI,23,6,6,212,Michigan State
+102,Deron,Williams,DAL,32,6,3,200,Illinois
+103,Derrick,Favors,UTA,25,6,10,265,Georgia Tech
+105,Derrick,Rose,NYK,28,6,3,190,Memphis
+106,Derrick,Williams,MIA,25,6,8,240,Arizona
+107,Devin,Booker,PHX,20,6,6,206,Kentucky
+108,Devin,Harris,DAL,33,6,3,185,Wisconsin
+109,Dewayne,Dedmon,SAS,27,7,0,245,Southern California
+110,Deyonta,Davis,MEM,20,6,10,240,Michigan State
+111,Diamond,Stone,LAC,19,6,11,255,Maryland
+112,Dion,Waiters,MIA,24,6,4,220,Syracuse
+113,Dirk,Nowitzki,DAL,38,7,0,245,None
+114,Domantas,Sabonis,OKC,20,6,11,240,Gonzaga
+115,Dorian,Finney-Smith,DAL,23,6,8,220,Florida
+116,Doug,McDermott,CHI,24,6,8,219,Creighton
+117,Dragan,Bender,PHX,19,7,1,225,None
+118,Draymond,Green,GSW,26,6,7,230,Michigan State
+119,Dwight,Howard,ATL,30,6,11,265,None
+120,Dwight,Powell,DAL,25,6,11,240,Stanford
+121,Dwyane,Wade,CHI,34,6,4,220,Marquette
+122,E'Twaun,Moore,NOP,27,6,4,191,Purdue
+123,Ed,Davis,POR,27,6,10,245,North Carolina
+124,Edy,Tavares,ATL,24,7,3,260,None
+125,Elfrid,Payton,ORL,22,6,4,185,Louisiana-Lafayette
+126,Emmanuel,Mudiay,DEN,20,6,5,200,None
+127,Enes,Kanter,OKC,24,6,11,245,Kentucky
+128,Eric,Bledsoe,PHX,26,6,1,205,Kentucky
+129,Eric,Gordon,HOU,27,6,4,215,Indiana
+130,Ersan,Ilyasova,PHI,29,6,10,235,None
+131,Evan,Fournier,ORL,24,6,7,205,None
+132,Evan,Turner,POR,28,6,7,220,Ohio State
+133,Frank,Kaminsky,CHA,23,7,0,240,Wisconsin
+134,Fred,VanVleet,TOR,22,6,0,195,Wichita State
+135,Garrett,Temple,SAC,30,6,6,195,Louisiana State
+136,Gary,Harris,DEN,22,6,4,210,Michigan State
+137,George,Hill,UTA,30,6,3,188,Indiana Purdue-Indianapolis
+138,Georges,Niang,IND,23,6,8,230,Iowa State
+139,Georgios,Papagiannis,SAC,19,7,1,240,None
+140,Gerald,Green,BOS,30,6,7,205,None
+141,Gerald,Henderson,PHI,28,6,5,215,Duke
+142,Giannis,Antetokounmpo,MIL,21,6,11,222,None
+143,Glenn,Robinson,IND,22,6,6,222,Michigan
+144,Goran,Dragic,MIA,30,6,3,190,None
+145,Gordon,Hayward,UTA,26,6,8,226,Butler
+146,Gorgui,Dieng,MIN,26,6,11,240,Louisville
+147,Greg,Monroe,MIL,26,6,11,265,Georgetown
+148,Greivis,Vasquez,BKN,29,6,6,217,Maryland
+149,Harrison,Barnes,DAL,24,6,8,225,North Carolina
+150,Hassan,Whiteside,MIA,27,7,0,265,Marshall
+151,Henry,Ellenson,DET,19,6,11,245,Marquette
+152,Hollis,Thompson,PHI,25,6,8,206,Georgetown
+153,Ian,Clark,GSW,25,6,3,175,Belmont
+154,Ian,Mahinmi,WSH,30,6,11,262,None
+155,Iman,Shumpert,CLE,26,6,5,220,Georgia Tech
+156,Isaiah,Canaan,CHI,25,6,0,201,Murray State
+157,Isaiah,Thomas,BOS,27,5,9,185,Washington
+158,Isaiah,Whitehead,BKN,21,6,4,213,Seton Hall
+159,Ish,Smith,DET,28,6,0,175,Wake Forest
+160,Ivica,Zubac,LAL,19,7,1,240,None
+161,J.J.,Barea,DAL,32,6,0,185,Northeastern
+162,JJ,Redick,LAC,32,6,4,190,Duke
+163,JR,Smith,CLE,31,6,6,225,None
+164,JaMychal,Green,MEM,26,6,9,227,Alabama
+165,JaVale,McGee,GSW,28,7,0,270,Nevada
+166,Jabari,Parker,MIL,21,6,8,250,Duke
+167,Jae,Crowder,BOS,26,6,6,235,Marquette
+168,Jahlil,Okafor,PHI,20,6,11,275,Duke
+169,Jake,Layman,POR,22,6,9,210,Maryland
+170,Jakob,Poeltl,TOR,21,7,0,230,Utah
+171,Jamal,Crawford,LAC,36,6,5,195,Michigan
+172,Jamal,Murray,DEN,19,6,4,207,Kentucky
+173,Jameer,Nelson,DEN,34,6,0,190,Saint Joseph's
+174,James,Ennis,MEM,26,6,7,210,Long Beach State
+175,James,Harden,HOU,27,6,5,220,Arizona State
+176,James,Johnson,MIA,29,6,9,250,Wake Forest
+177,James,Jones,CLE,36,6,8,218,Miami (FL)
+178,James,Michael McAdoo,GSW,23,6,9,240,North Carolina
+179,James,Young,BOS,21,6,6,215,Kentucky
+180,Jared,Dudley,PHX,31,6,7,225,Boston College
+181,Jarell,Martin,MEM,22,6,10,239,Louisiana State
+182,Jarnell,Stokes,DEN,22,6,9,255,Tennessee
+183,Jason,Smith,WSH,30,7,0,240,Colorado State
+184,Jason,Terry,MIL,39,6,2,185,Arizona
+185,Jaylen,Brown,BOS,20,6,7,225,California
+186,Jeff,Green,ORL,30,6,9,235,Georgetown
+187,Jeff,Teague,IND,28,6,2,186,Wake Forest
+188,Jeff,Withey,UTA,26,7,0,231,Kansas
+189,Jerami,Grant,OKC,22,6,9,210,Syracuse
+190,Jeremy,Lamb,CHA,24,6,5,185,Connecticut
+191,Jeremy,Lin,BKN,28,6,3,200,Harvard
+192,Jerian,Grant,CHI,24,6,4,198,Notre Dame
+193,Jerryd,Bayless,PHI,28,6,3,200,Arizona
+194,Jimmy,Butler,CHI,27,6,7,231,Marquette
+195,Joakim,Noah,NYK,31,6,11,230,Florida
+196,Jodie,Meeks,ORL,29,6,4,210,Kentucky
+197,Joe,Harris,BKN,25,6,6,219,Virginia
+198,Joe,Ingles,UTA,29,6,8,226,None
+199,Joe,Johnson,UTA,35,6,7,240,Arkansas
+200,Joe,Young,IND,24,6,2,180,Oregon
+201,Joel,Bolomboy,UTA,22,6,9,235,Weber State
+202,Joel,Embiid,PHI,22,7,0,250,Kansas
+203,Joffrey,Lauvergne,OKC,25,6,11,220,None
+204,John,Henson,MIL,25,6,11,229,North Carolina
+205,John,Jenkins,PHX,25,6,4,215,Vanderbilt
+206,John,Lucas III,MIN,34,5,11,166,Oklahoma State
+207,John,Wall,WSH,26,6,4,210,Kentucky
+208,Jon,Leuer,DET,27,6,10,228,Wisconsin
+209,Jonas,Jerebko,BOS,29,6,10,231,None
+210,Jonas,Valanciunas,TOR,24,7,0,255,None
+211,Jonathan,Gibson,DAL,29,6,2,185,New Mexico State
+212,Jonathon,Simmons,SAS,27,6,6,195,Houston
+213,Jordan,Clarkson,LAL,24,6,5,194,Missouri
+214,Jordan,Farmar,SAC,30,6,2,180,UCLA
+215,Jordan,Hill,MIN,29,6,10,240,Arizona
+216,Jordan,McRae,CLE,25,6,5,179,Tennessee
+217,Jordan,Mickey,BOS,22,6,8,235,Louisiana State
+218,Jose,Calderon,LAL,35,6,3,200,None
+219,Josh,McRoberts,MIA,29,6,10,240,Duke
+220,Josh,Richardson,MIA,23,6,6,200,Tennessee
+221,Jrue,Holiday,NOP,26,6,4,205,UCLA
+222,Juan,Hernangomez,DEN,21,6,9,230,None
+223,Julius,Randle,LAL,22,6,9,250,Kentucky
+224,Justin,Anderson,DAL,23,6,6,228,Virginia
+225,Justin,Hamilton,BKN,26,7,0,255,Louisiana State
+226,Justin,Holiday,NYK,27,6,6,185,Washington
+227,Justise,Winslow,MIA,20,6,7,225,Duke
+228,Jusuf,Nurkic,DEN,22,7,0,280,None
+229,KJ,McDaniels,HOU,23,6,6,205,Clemson
+230,Karl-Anthony,Towns,MIN,21,7,0,244,Kentucky
+231,Kawhi,Leonard,SAS,25,6,7,230,San Diego State
+232,Kay,Felder,CLE,21,5,9,176,None
+233,Kelly,Olynyk,BOS,25,7,0,238,Gonzaga
+234,Kelly,Oubre,WSH,20,6,7,205,Kansas
+235,Kemba,Walker,CHA,26,6,1,184,Connecticut
+236,Kenneth,Faried,DEN,27,6,8,228,Morehead State
+237,Kent,Bazemore,ATL,27,6,5,201,Old Dominion
+238,Kentavious,Caldwell-Pope,DET,23,6,5,205,Georgia
+239,Kevin,Durant,GSW,28,6,9,240,Texas
+240,Kevin,Love,CLE,28,6,10,251,UCLA
+241,Kevin,Seraphin,IND,26,6,10,278,Le Moyne
+242,Kevon,Looney,GSW,20,6,9,220,UCLA
+243,Klay,Thompson,GSW,26,6,7,215,Washington State
+244,Kosta,Koufos,SAC,27,7,0,265,Ohio State
+245,Kris,Dunn,MIN,22,6,4,205,Providence
+246,Kris,Humphries,ATL,31,6,9,235,Minnesota
+247,Kristaps,Porzingis,NYK,21,7,3,240,None
+248,Kyle,Anderson,SAS,23,6,9,230,UCLA
+249,Kyle,Korver,ATL,35,6,7,212,Creighton
+250,Kyle,Lowry,TOR,30,6,0,205,Villanova
+251,Kyle,O'Quinn,NYK,26,6,10,250,Norfolk State
+252,Kyle,Singler,OKC,28,6,8,228,Duke
+253,Kyle,Wiltjer,HOU,24,6,10,240,Gonzaga
+254,Kyrie,Irving,CLE,24,6,3,193,Duke
+255,LaMarcus,Aldridge,SAS,31,6,11,260,Texas
+256,Lance,Stephenson,NOP,26,6,5,230,Cincinnati
+257,Lance,Thomas,NYK,28,6,8,235,Duke
+258,Langston,Galloway,NOP,24,6,2,200,Saint Joseph's
+259,Larry,Nance Jr.,LAL,23,6,9,230,Wyoming
+260,Lavoy,Allen,IND,27,6,9,260,Temple
+261,LeBron,James,CLE,31,6,8,250,None
+262,Leandro,Barbosa,PHX,34,6,3,194,None
+263,Lou,Williams,LAL,30,6,1,175,None
+264,Luc,Mbah a Moute,LAC,30,6,8,230,UCLA
+265,Lucas,Nogueira,TOR,24,7,0,220,None
+266,Luis,Scola,BKN,36,6,9,241,None
+267,Luke,Babbitt,MIA,27,6,9,225,Nevada
+268,Luol,Deng,LAL,31,6,9,220,Duke
+269,Malachi,Richardson,SAC,20,6,6,205,Syracuse
+270,Malcolm,Brogdon,MIL,23,6,5,215,Virginia
+271,Malcolm,Delaney,ATL,27,6,3,190,Virginia Tech
+272,Malik,Beasley,DEN,20,6,5,196,Florida State
+273,Manu,Ginobili,SAS,39,6,6,205,None
+274,Marc,Gasol,MEM,31,7,1,255,None
+275,Marcelo,Huertas,LAL,33,6,3,200,None
+276,Marcin,Gortat,WSH,32,6,11,240,None
+277,Marco,Belinelli,CHA,30,6,5,210,None
+278,Marcus,Morris,DET,27,6,9,235,Kansas
+279,Marcus,Smart,BOS,22,6,4,220,Oklahoma State
+280,Marcus,Thornton,WSH,29,6,4,205,Louisiana State
+281,Mario,Hezonja,ORL,21,6,8,218,None
+282,Markieff,Morris,WSH,27,6,10,245,Kansas
+283,Marquese,Chriss,PHX,19,6,10,233,Washington
+284,Marreese,Speights,LAC,29,6,10,255,Florida
+285,Marshall,Plumlee,NYK,24,7,0,250,Duke
+286,Marvin,Williams,CHA,30,6,9,237,North Carolina
+287,Mason,Plumlee,POR,26,6,11,255,Duke
+288,Matt,Barnes,SAC,36,6,7,226,UCLA
+289,Matthew,Dellavedova,MIL,26,6,4,198,Saint Mary's (CA)
+290,Maurice,Harkless,POR,23,6,9,220,St. John's (NY)
+291,Maurice,Ndour,NYK,24,6,9,200,Ohio U.
+292,Metta,World Peace,LAL,37,6,7,260,St. John's (NY)
+293,Meyers,Leonard,POR,24,7,1,255,Illinois
+294,Michael,Beasley,MIL,27,6,10,235,Kansas State
+295,Michael,Carter-Williams,CHI,25,6,6,190,Syracuse
+296,Michael,Gbinije,DET,24,6,7,200,Syracuse
+297,Michael,Kidd-Gilchrist,CHA,23,6,7,232,Kentucky
+298,Mike,Conley,MEM,29,6,1,175,Ohio State
+299,Mike,Dunleavy,CLE,36,6,9,230,Duke
+300,Mike,Miller,DEN,36,6,8,218,Florida
+301,Mike,Muscala,ATL,25,6,11,240,Bucknell
+302,Mike,Scott,ATL,28,6,8,237,Virginia
+303,Miles,Plumlee,MIL,28,6,11,249,Duke
+304,Mindaugas,Kuzminskas,NYK,27,6,9,215,None
+305,Mirza,Teletovic,MIL,31,6,9,245,None
+306,Monta,Ellis,IND,31,6,3,185,None
+307,Montrezl,Harrell,HOU,22,6,8,240,Louisville
+308,Myles,Turner,IND,20,6,11,243,Texas
+309,Nemanja,Bjelica,MIN,28,6,10,225,None
+310,Nene,NULL,HOU,34,6,11,250,None
+311,Nick,Collison,OKC,36,6,10,255,Kansas
+312,Nick,Young,LAL,31,6,7,210,Southern California
+313,Nicolas,Batum,CHA,27,6,8,200,None
+314,Nicolas,Brussino,DAL,23,6,8,215,None
+315,Nicolas,Laprovittola,SAS,26,6,4,180,None
+316,Nik,Stauskas,PHI,23,6,6,205,Michigan
+317,Nikola,Jokic,DEN,21,6,10,250,None
+318,Nikola,Mirotic,CHI,25,6,10,238,None
+319,Nikola,Vucevic,ORL,26,7,0,260,Southern California
+320,Noah,Vonleh,POR,21,6,9,245,Indiana
+321,Norman,Powell,TOR,23,6,4,215,UCLA
+322,Omer,Asik,NOP,30,7,0,255,None
+323,Omri,Casspi,SAC,28,6,9,225,None
+324,Otto,Porter,WSH,23,6,8,198,Georgetown
+325,PJ,Tucker,PHX,31,6,6,245,Texas
+326,Pascal,Siakam,TOR,22,6,9,230,New Mexico State
+327,Pat,Connaughton,POR,23,6,5,210,Notre Dame
+328,Patrick,Beverley,HOU,28,6,1,185,Arkansas
+329,Patrick,McCaw,GSW,21,6,7,185,Nevada-Las Vegas
+330,Patrick,Patterson,TOR,27,6,9,235,Kentucky
+331,Patty,Mills,SAS,28,6,0,185,Saint Mary's (CA)
+332,Pau,Gasol,SAS,36,7,0,250,None
+333,Paul,George,IND,26,6,9,220,Fresno State
+334,Paul,Millsap,ATL,31,6,8,246,Louisiana Tech
+335,Paul,Pierce,LAC,39,6,7,235,Kansas
+336,Paul,Zipser,CHI,22,6,8,210,None
+337,Quincy,Acy,DAL,26,6,7,240,Baylor
+338,RJ,Hunter,CHI,23,6,5,185,Georgia State
+339,Rajon,Rondo,CHI,30,6,1,186,Kentucky
+340,Rakeem,Christmas,IND,25,6,9,250,Syracuse
+341,Ramon,Sessions,CHA,30,6,3,190,Nevada
+342,Randy,Foye,BKN,33,6,4,218,Villanova
+343,Rashad,Vaughn,MIL,20,6,6,202,UNLV
+344,Raul,Neto,UTA,24,6,1,179,None
+345,Raymond,Felton,LAC,32,6,1,205,North Carolina
+346,Reggie,Bullock,DET,25,6,7,205,North Carolina
+347,Richard,Jefferson,CLE,36,6,7,233,Arizona
+348,Richaun,Holmes,PHI,23,6,10,245,Bowling Green
+349,Ricky,Rubio,MIN,26,6,4,190,None
+350,Robert,Covington,PHI,25,6,9,215,Tennessee State
+351,Robin,Lopez,CHI,28,7,0,255,Stanford
+352,Rodney,Hood,UTA,24,6,8,206,Duke
+353,Rodney,McGruder,MIA,25,6,4,205,Kansas State
+354,Rodney,Stuckey,IND,30,6,5,205,Eastern Washington
+355,Ron,Baker,NYK,23,6,4,220,Wichita State
+356,Rondae,Hollis-Jefferson,BKN,21,6,7,214,Arizona
+357,Roy,Hibbert,CHA,29,7,2,270,Georgetown
+358,Rudy,Gay,SAC,30,6,8,230,Connecticut
+359,Rudy,Gobert,UTA,24,7,1,245,None
+360,Russell,Westbrook,OKC,28,6,3,200,UCLA
+361,Ryan,Anderson,HOU,28,6,10,240,California
+362,Ryan,Kelly,ATL,25,6,11,230,Duke
+363,Salah,Mejri,DAL,30,7,2,245,None
+364,Sam,Dekker,HOU,22,6,9,230,Wisconsin
+365,Sasha,Vujacic,NYK,32,6,7,195,None
+366,Sean,Kilpatrick,BKN,26,6,4,219,Cincinnati
+367,Semaj,Christon,OKC,24,6,3,190,Xavier
+368,Serge,Ibaka,ORL,27,6,10,235,None
+369,Sergio,Rodriguez,PHI,30,6,3,176,None
+370,Seth,Curry,DAL,26,6,2,185,Duke
+371,Shabazz,Muhammad,MIN,24,6,6,223,UCLA
+372,Shabazz,Napier,POR,25,6,1,175,Connecticut
+373,Shaun,Livingston,GSW,31,6,7,192,None
+374,Sheldon,McClellan,WSH,23,6,6,200,Miami (Fla.)
+375,Shelvin,Mack,UTA,26,6,3,203,Butler
+376,Skal,Labissiere,SAC,20,6,11,225,Kentucky
+377,Solomon,Hill,NOP,25,6,7,225,Arizona
+378,Spencer,Hawes,CHA,28,7,1,245,Washington
+379,Stanley,Johnson,DET,20,6,7,245,Arizona
+380,Stephen,Curry,GSW,28,6,3,190,Davidson
+381,Stephen,Zimmerman,ORL,20,7,0,240,Nevada-Las Vegas
+382,Steve,Novak,MIL,33,6,10,225,Marquette
+383,Steven,Adams,OKC,23,7,0,255,Pittsburgh
+384,TJ,McConnell,PHI,24,6,2,200,Arizona
+385,TJ,Warren,PHX,23,6,8,225,North Carolina State
+386,Taj,Gibson,CHI,31,6,9,236,Southern California
+387,Tarik,Black,LAL,25,6,9,250,Kansas
+388,Taurean,Prince,ATL,22,6,8,220,Baylor
+389,Terrence,Jones,NOP,24,6,9,255,Kentucky
+390,Terrence,Ross,TOR,25,6,7,195,Washington
+391,Terry,Rozier,BOS,22,6,2,190,Louisville
+392,Thabo,Sefolosha,ATL,32,6,7,220,None
+393,Thaddeus,Young,IND,28,6,8,221,Georgia Tech
+394,Thomas,Robinson,LAL,25,6,10,237,Kansas
+395,Thon,Maker,MIL,19,7,1,223,None
+396,Tim,Frazier,NOP,26,6,1,170,None
+397,Tim,Hardaway Jr.,ATL,24,6,6,205,Michigan
+398,Tim,Quarterman,POR,22,6,6,190,Louisiana State
+399,Timofey,Mozgov,LAL,30,7,1,275,None
+400,Timothe,Luwawu-Cabarrot,PHI,21,6,6,205,None
+401,Tobias,Harris,DET,24,6,9,235,Tennessee
+402,Tomas,Satoransky,WSH,25,6,7,210,None
+403,Tony,Allen,MEM,34,6,4,213,Oklahoma State
+404,Tony,Parker,SAS,34,6,2,185,None
+405,Tony,Snell,MIL,25,6,7,217,New Mexico
+406,Treveon,Graham,CHA,23,6,6,226,Virginia Commonwealth
+407,Trevor,Ariza,HOU,31,6,8,215,UCLA
+408,Trevor,Booker,BKN,29,6,8,228,Clemson
+409,Trey,Burke,WSH,24,6,1,191,Michigan
+410,Trey,Lyles,UTA,21,6,10,234,Kentucky
+411,Tristan,Thompson,CLE,25,6,9,238,Texas
+412,Troy,Daniels,MEM,25,6,4,205,Virginia Commonwealth
+413,Troy,Williams,MEM,21,6,7,210,Indiana
+414,Ty,Lawson,SAC,29,5,11,195,North Carolina
+415,Tyler,Ennis,HOU,22,6,3,194,Syracuse
+416,Tyler,Johnson,MIA,24,6,4,186,Fresno State
+417,Tyler,Ulis,PHX,20,5,10,150,Kentucky
+418,Tyler,Zeller,BOS,26,7,0,253,North Carolina
+419,Tyson,Chandler,PHX,34,7,1,240,None
+420,Tyus,Jones,MIN,20,6,2,195,Duke
+421,Udonis,Haslem,MIA,36,6,8,235,Florida
+422,Victor,Oladipo,OKC,24,6,4,210,Indiana
+423,Vince,Carter,MEM,39,6,6,220,North Carolina
+424,Wade,Baldwin,MEM,20,6,4,202,Vanderbilt
+425,Wayne,Ellington,MIA,29,6,4,200,North Carolina
+426,Wesley,Johnson,LAC,29,6,7,215,Syracuse
+427,Wesley,Matthews,DAL,30,6,5,220,Marquette
+428,Will,Barton,DEN,25,6,6,175,Memphis
+429,Willie,Cauley-Stein,SAC,23,7,0,240,Kentucky
+430,Willie,Reed,MIA,26,6,10,220,Saint Louis
+431,Willy,Hernangomez,NYK,22,6,11,240,None
+432,Wilson,Chandler,DEN,29,6,8,225,DePaul
+433,Yogi,Ferrell,BKN,23,6,0,180,Indiana
+434,Zach,LaVine,MIN,21,6,5,185,UCLA
+435,Zach,Randolph,MEM,35,6,9,260,Michigan State
+436,Zaza,Pachulia,GSW,32,6,11,275,None
+437,Lonzo,Ball,NULL,19,6,6,190,UCLA
+438,Josh,Hawkinson,NULL,20,6,10,220,Washington State
+439,Emmett,Naar,NULL,21,6,1,210,Saint Mary's (CA)
+440,Kyron,Cartwright,NULL,22,5,11,195,Providence
+441,Siyani,Chambers,NULL,19,6,0,185,Harvard
+442,Jaaron,Simmons,NULL,20,6,1,195,Ohio State
+443,De'Aaron,Fox,NULL,21,6,3,208,Kentucky
+444,Paris,Lee,NULL,20,6,0,201,Illinois
+445,Lindsey,Drew,NULL,21,6,4,214,Nevada
+446,Jaquan,Lyle,NULL,20,6,5,223,Ohio State
+447,Matt,Farrell,NULL,19,6,0,198,Notre Dame
+448,Monte,Morris,NULL,20,6,2,204,Iowa State

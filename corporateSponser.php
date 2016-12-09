@@ -8,10 +8,9 @@ or die('Error connecting to MySQL server.');
 ?>
 
 <head>
-  <title>Teams: Team Budgets</title>
+  <title>Teams: Sponsership Revenue</title>
  <link rel="stylesheet" type="text/css" href="style.css">
- <link rel="stylesheet" type="text/css" href="style.css">
-   <!-- Latest compiled and minified CSS -->
+  <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
     <!-- Optional theme -->
@@ -30,7 +29,7 @@ or die('Error connecting to MySQL server.');
 <?php
   
 
-$query = "SELECT name, year_founded, budget FROM team WHERE budget IS NOT NULL ORDER BY budget DESC";
+$query = 'SELECT team.name AS name, SUM(corporate_sponsor.sponsorship_amount) AS totalSpons FROM team JOIN corporate_sponsor ON team.code=corporate_sponsor.team_code GROUP BY team.code';
 
 ?>
 
@@ -51,16 +50,14 @@ $result = mysqli_query($conn, $query)
 or die(mysqli_error($conn));
 echo "<table width ='100%' border='1'>
         <tr>
-        <th>Team Name</th>
-        <th>Year Founded</th>
-        <th>Budget</th>
+        <th>Team</th>
+        <th>Total Sponsorship Revenue</th>
         </tr>";
 
         while($row = mysqli_fetch_array($result, MYSQLI_BOTH)){
             echo "<tr>";
             echo "<td>" . $row['name'] . "</td>";
-            echo "<td>" . $row['year_founded'] . "</td>";
-            echo "<td>$" . number_format($row["budget"]) . "</td>";
+            echo "<td>" . $row['totalSpons'] . "</td>";
         }
         echo "</table>";
 
@@ -72,7 +69,7 @@ mysqli_close($conn);
 
 <hr>
 
-  <button class="btn btn-default"><a href="index.html">Home</a></button> 
+  <button class="btn btn-default"><a href="index.html">Home</a></button>  
  
 </body>
 </html>

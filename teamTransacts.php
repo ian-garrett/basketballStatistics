@@ -8,10 +8,9 @@ or die('Error connecting to MySQL server.');
 ?>
 
 <head>
-  <title>Teams: Team Budgets</title>
+  <title>Teams: Total Transactions</title>
  <link rel="stylesheet" type="text/css" href="style.css">
- <link rel="stylesheet" type="text/css" href="style.css">
-   <!-- Latest compiled and minified CSS -->
+  <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
     <!-- Optional theme -->
@@ -30,7 +29,7 @@ or die('Error connecting to MySQL server.');
 <?php
   
 
-$query = "SELECT name, year_founded, budget FROM team WHERE budget IS NOT NULL ORDER BY budget DESC";
+$query = 'SELECT team.name AS trans, IFNULL(tr1.t1_count,0)+IFNULL(tr2.t2_count,0) AS trans_cond FROM team LEFT OUTER JOIN (SELECT team_code_1, COUNT(team_code_1) AS t1_count FROM transaction GROUP BY team_code_1) AS tr1 ON team.code=tr1.team_code_1 LEFT OUTER JOIN (SELECT team_code_2, COUNT(team_code_2) AS t2_count FROM transaction GROUP BY team_code_2) AS tr2 ON team.code=tr2.team_code_2 WHERE IFNULL(tr1.t1_count,0)+IFNULL(tr2.t2_count,0)!=0 ORDER BY trans_cond DESC';
 
 ?>
 
@@ -51,16 +50,14 @@ $result = mysqli_query($conn, $query)
 or die(mysqli_error($conn));
 echo "<table width ='100%' border='1'>
         <tr>
-        <th>Team Name</th>
-        <th>Year Founded</th>
-        <th>Budget</th>
+        <th>Team</th>
+        <th>Number of Transactions</th>
         </tr>";
 
         while($row = mysqli_fetch_array($result, MYSQLI_BOTH)){
             echo "<tr>";
-            echo "<td>" . $row['name'] . "</td>";
-            echo "<td>" . $row['year_founded'] . "</td>";
-            echo "<td>$" . number_format($row["budget"]) . "</td>";
+            echo "<td>" . $row['trans'] . "</td>";
+            echo "<td>" . $row['trans_cond'] . "</td>";
         }
         echo "</table>";
 
@@ -72,7 +69,7 @@ mysqli_close($conn);
 
 <hr>
 
-  <button class="btn btn-default"><a href="index.html">Home</a></button> 
+  <button class="btn btn-default"><a href="index.html">Home</a></button>  
  
 </body>
 </html>
